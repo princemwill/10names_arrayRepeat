@@ -10,6 +10,15 @@ namespace _10names_arrayRepeater
     {
         static void Main(string[] args)
         {
+      
+            string[] names = { "Peter", "Miles", "Bruce", "Erik", "Logan", "Tony", "Scott", "T'Challa", "Orro", "Jean" };
+
+
+            for (int i = 0; i <300; i++)
+            {
+                Console.WriteLine(names[i%names.Length]);
+            }
+            Console.ReadKey();
         }
     }
 }
